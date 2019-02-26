@@ -32,7 +32,7 @@ function findTheCheese (foods) {
       if (foods[i] === cheese[c]){
         return cheese[c];
       }
-        return 'no cheese!';
-      }
     }
   }
+        return 'no cheese!';
+      }
