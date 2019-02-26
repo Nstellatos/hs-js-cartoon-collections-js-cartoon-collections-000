@@ -31,10 +31,8 @@ function findTheCheese (foods) {
     for (var c=0; c<cheese.length; c++){
       if (foods[i] === cheese[c]){
         return cheese[c];
-      } else {
+      }
         return 'no cheese!';
       }
     }
   }
-
-}
